@@ -18,7 +18,7 @@ fs.readdir(dir, { withFileTypes: true }, (err, files) => {
             fileInfo.ext.slice(1) +
             ' - ' +
             stats.size +
-            '\n',
+            ' bytes\n',
         );
       });
     }
